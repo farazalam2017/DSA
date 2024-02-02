@@ -1,4 +1,4 @@
-import java.util.*;
+ import java.util.*;
 
 public class BinaryToDecimal {
 
@@ -20,3 +20,4 @@ public class BinaryToDecimal {
     sc.close();
   }
 }
+
