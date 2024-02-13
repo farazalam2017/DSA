@@ -1,4 +1,3 @@
-import java.util.*;
 public class Subarray {
   public static void printSubarray(int numbers[]) {
     int ts = 0;
