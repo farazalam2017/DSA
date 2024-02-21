@@ -274,6 +274,7 @@ public class Pattern {
       System.out.println(" \n \n ********************************************** \n ");
     } while (true);
     
+    
   }
 
 }
