@@ -1,8 +1,8 @@
 /* Idea:- largest element come to an end of array by swapping adjacent element*/
 public class BubbleSort {
   public static void bubbleSort(int arr[]) {
+    int swaps = 0;  
     for (int i = 0; i < arr.length - 1; i++) {
-      int swaps = 0;  
       for (int j = 0; j < arr.length - 1 - i; j++) {
         if (arr[j] > arr[j + 1]) {
           int temp = arr[j];
@@ -11,8 +11,8 @@ public class BubbleSort {
           swaps++;
         }
       }
-      System.out.println(swaps);
     }
+    System.out.println(swaps);
   }
 
   public static void printArray(int arr[]) {
@@ -22,7 +22,7 @@ public class BubbleSort {
     System.out.println();
   }
  public static void main(String[] args) {
-   int arr[] = { 1,2,3,4,5 };
+   int arr[] = { 5,4,3,2,1};
    bubbleSort(arr);
    printArray(arr);
  } 

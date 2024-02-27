@@ -3,10 +3,10 @@ public class SearchInSortedMatrix{
   public static boolean staircaseSearch(int matrix[][], int key) {
     int i = 0;
     int row = matrix.length;
-    int col = matrix[0].length-1;
+    int col = matrix[0].length - 1;
     while (i < row && col >= 0) {
       if (matrix[i][col] == key) {
-        System.out.println("Found key "+ key+" " +"at:-" + row + " " + col);
+        System.out.println("Found key at:- " + i + ", " + col);
         return true;
       } else if (key < matrix[i][col]) {
         col--;
@@ -38,7 +38,7 @@ public class SearchInSortedMatrix{
   }
   public static void main(String[] args) {
     int matrix[][] = { { 20, 30, 40, 10 }, { 45, 35, 25, 15 }, { 29, 27, 37, 48 }, { 33, 32, 50, 39 } };
-    int key = 39;
+    int key = 509;
     sortMatrix(matrix,key);
 
   }

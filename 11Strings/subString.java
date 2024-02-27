@@ -10,6 +10,5 @@ public class subString {
     String str = new String("Faraz Alam");
     System.out.println(substring(str, 3, 7));
     System.out.println(str.substring(3,7));//using inbuild function
-
   }
 }
