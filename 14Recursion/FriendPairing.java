@@ -14,6 +14,6 @@ public class FriendPairing {
   }
 
   public static void main(String[] args) {
-    System.out.println(friendPairing(3));
+    System.out.println(friendPairing(7));
   }
 }

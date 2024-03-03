@@ -9,7 +9,7 @@ public class BitwiseSetith {
     return n | bitMask;
   }
   public static void main(String[] args) {
-    System.out.println(Setithbit(10,2 ));
+    System.out.println(Setithbit(9,2 ));
   }
 }
  

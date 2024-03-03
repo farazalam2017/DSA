@@ -21,6 +21,6 @@ public class ProblemThree {
    return halfP;
   }
   public static void main(String[] args) {
-    System.out.println(optimalPower(2, 5));
+    System.out.println(optimalPower(6,4));
   }
 }
