@@ -1,4 +1,4 @@
-/* Given n friends each one can remail single or can be paired up with some other friend. Each friend can be paired only once.Finf out total number of ways in which friends remain single or can be paired up. */
+/* Given n friends each one can remain single or can be paired up with some other friend. Each friend can be paired only once.Find out total number of ways in which friends remain single or can be paired up. */
 public class FriendPairing {
   public static int friendPairing(int n) {
     if (n == 1 || n == 2) {
