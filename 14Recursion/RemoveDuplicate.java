@@ -18,12 +18,12 @@ public class RemoveDuplicate {
     
   }
   public static void main(String[] args) {
-    String str = "faaraaz";
-    String str1 = "Fa ara az ";
-    String str2 = "faraaz Alaam";
-    removeDuplicate(str, 0, new StringBuilder(""),new boolean[26]);
-    removeDuplicate(str1, 0, new StringBuilder(""),new boolean[26]);
-    removeDuplicate(str2, 0, new StringBuilder(""),new boolean[26]);
+    String str = "Coountrry";
+    String str1 = "COOUNTTRY";
+    String str2 = "COOUnntryy";
+    removeDuplicate(str, 0, new StringBuilder(""),new boolean[26]);//country
+    removeDuplicate(str1, 0, new StringBuilder(""),new boolean[26]);//country
+    removeDuplicate(str2, 0, new StringBuilder(""),new boolean[26]);//country
   }
 }
 /* public class RemoveDuplicate {

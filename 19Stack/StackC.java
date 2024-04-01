@@ -12,11 +12,11 @@ public class StackC {
   static class Stack {
     static Node head = null;
 
-    public static boolean isEmpty() {
+    public boolean isEmpty() {
       return head == null;
     }
     //push
-    public static void push(int data) {
+    public void push(int data) {
       Node newNode = new Node(data);
       if (isEmpty()) {
         head = newNode;
@@ -26,7 +26,7 @@ public class StackC {
       head = newNode;
     }
     //pop
-    public static int pop() {
+    public int pop() {
       if (isEmpty()) {
         return -1;
       }
@@ -35,7 +35,7 @@ public class StackC {
       return top;
     }
     //peek
-    public static int peek() {
+    public int peek() {
       if (isEmpty()) {
         return -1;
       }
