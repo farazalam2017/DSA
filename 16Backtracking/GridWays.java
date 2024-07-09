@@ -1,4 +1,4 @@
-/* Find he number of ways to reach from (0,0) to (n-1,m-1) in a n*m Grid, if allowed moves are only right and down */
+/* Find t he number of ways to reach from (0,0) to (n-1,m-1) in a n*m Grid, if allowed moves are only right and down */
 /* Below approach gives complexity of O(2^(n+m)), exponential */
 /* public class GridWays {
   public static int gridWays(int i, int j, int n, int m) {

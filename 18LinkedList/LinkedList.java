@@ -49,18 +49,18 @@ public class LinkedList {
     tail = newNode;
   }
 
-  public void print() {
-    if (head == null) {
-      System.out.print("List is empty");
-      return;
+    public void print() {
+      if (head == null) { 
+        System.out.print("List is empty");
+        return;
+      }
+      Node temp = head;
+      while (temp != null) {
+        System.out.print(temp.data + "->");
+        temp = temp.next;
+      }
+      System.out.println("null");
     }
-    Node temp = head;
-    while (temp != null) {
-      System.out.print(temp.data + "->");
-      temp = temp.next;
-    }
-    System.out.println("null");
-  }
   //add at index i,
   public void add(int index, int data) {
     if (index == 0) {

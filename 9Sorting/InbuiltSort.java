@@ -11,7 +11,7 @@ public class InbuiltSort {
     Arrays.sort(arr);
     printArray(arr);
     System.out.println();
-    //sort in descending order, bu expect object Intger instead of int
+    //sort in descending order, but expect object Intger instead of int
     Arrays.sort(arr, Collections.reverseOrder());
     printArray(arr);
   }

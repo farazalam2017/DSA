@@ -7,8 +7,8 @@ public class Backtrack {
     }
     //recursion
     arr[i] = value;
-    changeArray(arr, i + 1, value + 1);
-    arr[i] = arr[i] - 2;
+    changeArray(arr, i + 1, value + 1);//function call step
+    arr[i] = arr[i] - 2;//backtrack step
   }
 
   public static void print(int arr[]) {
