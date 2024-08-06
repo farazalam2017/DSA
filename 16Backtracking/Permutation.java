@@ -14,8 +14,6 @@ public class Permutation {
       //"abcde"="ab"+"de"="abde"
       String Newstr = str.substring(0, i) + str.substring(i + 1);
       findPerm(Newstr, ans+curr);
-      
-
     }
   }
   public static void main(String[] args) {
