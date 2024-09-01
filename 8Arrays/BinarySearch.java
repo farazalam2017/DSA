@@ -1,3 +1,4 @@
+
 public class BinarySearch {
   public static int bin(int numbers[], int key) {
     int start = 0;
