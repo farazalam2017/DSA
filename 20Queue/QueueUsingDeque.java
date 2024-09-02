@@ -1,9 +1,8 @@
 /* Queue using deque */
-/* Stack using Deque */
 import java.util.*;
 import java.util.LinkedList;
 
-public class twelve {
+public class QueueUsingDeque {
   static class Queue {
     Deque<Integer> deque = new LinkedList<>();
 

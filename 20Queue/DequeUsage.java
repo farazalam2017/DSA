@@ -1,7 +1,7 @@
 /* Deque(Double ended queue) */
 import java.util.*;
 import java.util.LinkedList;
-public class ten {
+public class DequeUsage {
   public static void main(String[] args) {
     Deque<Integer> deque = new LinkedList<>();
     deque.addFirst(1);//1
