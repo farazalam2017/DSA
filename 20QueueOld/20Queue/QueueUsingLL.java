@@ -1,5 +1,5 @@
 /* Implement Queue using linked list */
-public class Three {
+public class QueueUsingLL {
   static class Node{
     int data;
     Node next;

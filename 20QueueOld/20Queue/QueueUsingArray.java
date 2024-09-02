@@ -1,5 +1,5 @@
 /* Implement Queue using array */
-public class One {
+public class QueueUsingArray {
   static class Queue {
     static int arr[];
     static int size;

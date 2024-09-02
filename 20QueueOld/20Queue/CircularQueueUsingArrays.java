@@ -1,5 +1,5 @@
 /* Implement Circular Queue using arrays */
-public class Two {
+public class CircularQueueUsingArrays {
   static class Queue {
     static int arr[];
     static int size;
