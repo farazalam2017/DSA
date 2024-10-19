@@ -9,10 +9,8 @@ public class PrefixSum {
       prefixArray[i] = prefixArray[i - 1] + numbers[i];
     }
     for (int i = 0; i < numbers.length; i++) {
-      int start = i;
       for (int j = i; j < numbers.length; j++) {
-        int end = j;
-        curSum = start==0 ? prefixArray[end]: prefixArray[end] - prefixArray[start - 1];
+        curSum = i==0 ? prefixArray[j]: prefixArray[j] - prefixArray[i - 1];
           if (curSum > maxSum) {
             maxSum = curSum;
           }

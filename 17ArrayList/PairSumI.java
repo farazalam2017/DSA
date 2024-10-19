@@ -6,7 +6,7 @@
 
 import java.util.ArrayList;
 
-public class ProblemOne {
+public class PairSumI {
   //bruteforce
  /*  public static boolean PairSum(ArrayList<Integer> list, int target) {
    for (int i = 0; i < list.size(); i++) {

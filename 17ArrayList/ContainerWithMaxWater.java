@@ -4,7 +4,7 @@
 
 import java.util.ArrayList;
 
-public class Problem {
+public class ContainerWithMaxWater {
   // bruteforce- O(n^2)
   /* public static int storedWater(ArrayList<Integer> height) {
     int maxWater = 0;

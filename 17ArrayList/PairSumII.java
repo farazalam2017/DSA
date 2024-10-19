@@ -4,7 +4,7 @@
 
 import java.util.ArrayList;
 
-public class ProblemTwo {
+public class PairSumII {
   public static boolean PairSumTwo(ArrayList<Integer> list, int target) {
     int breakingPoint = -1;
     int n=list.size();
